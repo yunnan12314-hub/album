@@ -1,3 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:14px system-ui,sans-serif}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
 <title>小满的衣橱相册</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>
@@ -101,6 +113,9 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--name);outline-offse
 .toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 84px);transform:translateX(-50%);background:var(--toast);color:var(--toast-fg);padding:8px 16px;border-radius:8px;font-size:14px;z-index:30;max-width:calc(100% - 32px);text-align:center}
 @media (prefers-reduced-motion:no-preference){.toast{animation:pop .18s ease-out}@keyframes pop{from{opacity:0;transform:translate(-50%,6px)}}}
 </style>
+</head>
+<body>
+
 
 <div class="page">
   <header>
@@ -334,3 +349,6 @@ var POSTS = [
   render();
 })();
 </script>
+
+</body>
+</html>
